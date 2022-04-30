@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    background-color: #1c1c1c;
+    background-image: url(imagens/musics.png);
+    background-size: 100%;
+    color: white;
+}
+
+.menu {
+    color: white;
+    font-family: permanent marker;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    height: 70px;
+    align-items: center;
+    position: absolute;
+}
+
+.imagemTopo {
+    width: 100%;
+}
+
+
+.bailes{
+    text-align: center;
+    height: 500px;
+    width: 600px;
+    margin: 70px auto;
+    margin-top: 100px;
+    
+}
+
+.videoBaile {
+    width: 100%;
+}
+
+.textoFundoAzul {
+    background-image: url(imagens/fundoTitulo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -10px;
+    z-index: 1;
+    position: relative;
+    font-family: permanent marker;
+    color: white;
+    text-align: center;
+}
+
+.producoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+}
+
+.fotinha {
+    width: 200px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.fotinha1 {
+    width: 200px;
+    
+    
+    margin-top: -30px;
+}
+
+.play {
+    top: 2px;
+    width: 15px;
+    filter: invert(1);
+    position: relative;
+    margin-right: 5px;
+}
+
+.btnAzul {
+    background-color: #184394;
+    margin-left: 5px;
+    padding: 4px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.nomeMusica {
+    width: 212px;
+    display: inline-block;
+}
+
+.liMusica {
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    font-family: calibre, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.musicas {
+    margin-left: 70px;
+}
+
+.agenda {
+    background-image: url(imagens/fundoProducoes.png);
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.conteudoAgenda{
+    display: flex;
+    font-family: calibre, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.dataAgenda {
+    text-align: center;
+}
+
+.localAgenda {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+
+.diaMes {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.dadosAgenda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.fotoAntipatia {
+    width: 220px;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.textoSobre {
+    width: 350px;
+    font-family: calibre, sans-serif;
+    margin-left: 30px;
+}
+
+.tituloSobre {
+    font-family: permanent marker;
+}
+
+.dadosSobre {
+    display: flex;
+    gap: 20px;
+    height: 30px;
+}
+
+.conteudoContato {
+    display: flex;
+    padding: 5px;
+    gap:5px;
+    background-color: #184394;
+    
+}
+
+.instagramLogo {
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.instaDj {
+    margin: 0;
+}
+
+.rodape {
+    margin-top: 100px;
+    background-color: #184394;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.textoRodape {
+    margin-left: 30px;
+}
+
+.textoFundoAzulAgenda{
+    top: 150px;
+    background-image: url(imagens/fundoTitulo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -10px;
+    z-index: 1;
+    position: relative;
+    font-family: permanent marker;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    .menu {
+    color: white;
+    font-family: permanent marker;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    height: 30px;
+    align-items: center;
+    position: absolute;
+    margin-left: -25px;
+    }
+
+    .bailes {
+    width: 100%;
+    margin-top: 30px;
+    height: 250px;
+    }
+
+    .textoFundoAzul {
+        margin: auto;
+        width: 67%;
+    }
+
+    .videoBaile {
+        width: 70%;
+    }
+
+    .producoes {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .musicas {
+        width: 100%;
+        margin: 0;
+        margin-top: 15%;
+    }
+   
+    .liMusica {
+        width: 77%;
+    }
+
+    .nomeMusica {
+        width: 50%;
+    }
+   
+    .textoFundoAzulAgenda {
+        margin-top: -36%;
+        width: 100%;
+    }
+
+    .agenda {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40%;
+    }
+
+    .sobre {
+        width: 100%;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .textoSobre {
+        width: 79%;
+        background-image: url(imagens/fundoProducoes.png);
+        margin-top: 5%;
+    }
+
+    .dadosSobre {
+        width: 60%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+}
